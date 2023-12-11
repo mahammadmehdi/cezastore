@@ -1,0 +1,40 @@
+.productCart{
+position: relative;
+.modal{
+    position: absolute;
+    left: 30%;
+}
+.cart{  
+width: 270px;
+height: 450px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+gap: 100px;
+.carts{
+border: 1px solid #e6e6e6;
+padding: 10px;
+
+    .image{
+        width: 270px;
+        height: 335px;
+    }
+    .detail{
+display: flex;
+justify-content: space-between;
+.close{
+    font-size: 35px;
+}
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .name{
+            color: #999;
+            font-size: 15px;
+        }
+    }
+}
+}
+}
+}
